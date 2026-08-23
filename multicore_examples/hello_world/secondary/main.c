@@ -5,6 +5,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+#include "fsl_debug_console.h"
 #include "board.h"
 #include "app.h"
 #include "mcmgr.h"
@@ -46,6 +47,9 @@ int main(void)
     {
         SDK_DelayAtLeastUs(1000000U, SDK_DEVICE_MAXIMUM_CPU_CLOCK_FREQUENCY);
     }
+
+    /* Print the initial banner from Secondary core */
+    (void)PRINTF("\r\nHello World from the Secondary Core!\r\n\n");
 
     /* Configure LED */
     LED_INIT();

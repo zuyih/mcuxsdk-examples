@@ -17,6 +17,8 @@ void BOARD_InitHardware(void)
     BOARD_ConfigMPU();
     BOARD_InitBootPins();
     BOARD_InitLEDsPins();
+    BOARD_InitALT_UARTPins();
+    BOARD_InitDebugConsole();
     SystemCoreClock = CLOCK_GetRootClockFreq(kCLOCK_Root_M7);
 }
 
