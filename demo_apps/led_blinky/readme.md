@@ -14,6 +14,7 @@ The code of this demo has been prepared and updated for use with the MCUXpresso 
 - [FRDM-KE16Z](../../_boards/frdmke16z/demo_apps/led_blinky/example_board_readme.md)
 - [FRDM-KE17Z](../../_boards/frdmke17z/demo_apps/led_blinky/example_board_readme.md)
 - [FRDM-KE17Z512](../../_boards/frdmke17z512/demo_apps/led_blinky/example_board_readme.md)
+- [FRDM-MCXC041](../../_boards/frdmmcxc041/demo_apps/led_blinky/example_board_readme.md)
 - [FRDM-MCXC242](../../_boards/frdmmcxc242/demo_apps/led_blinky/example_board_readme.md)
 - [FRDM-MCXC444](../../_boards/frdmmcxc444/demo_apps/led_blinky/example_board_readme.md)
 - [FRDM-MCXE247](../../_boards/frdmmcxe247/demo_apps/led_blinky/example_board_readme.md)
